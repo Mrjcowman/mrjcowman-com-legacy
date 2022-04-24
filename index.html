@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +12,62 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/mystyles.css">
+
+    <!-- Functionality -->
+    <script src="navbar.js"></script>
 </head>
+
 <body>
-    <h1 class="title">
-        Jacob Cowan
-    </h1>
+    <section class="hero is-fullheight has-background">
+        <div class="hero-head">
 
-    <p class="subtitle">
-        Hello world, here is some boilerplate code!
-    </p>
+            <nav class="navbar is-primary">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a href="index.html" class="navbar-item">
+                            <span class="logo">Jacob Cowan</span>
+                        </a>
+                        <span class="navbar-burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a href="index.html" class="navbar-item is-active">
+                                Home
+                            </a>
+                            <a href="projects.html" class="navbar-item">
+                                Projects
+                            </a>
+                            <a href="resume.html" class="navbar-item">
+                                Résumé
+                            </a>
+                            <a href="contact.html" class="navbar-item">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
+        </div>
+        <video class="hero-background" autoplay muted loop>
+            <source src="res/portfolio-hero.mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-body is-faded">
+            <div class="container py-6 pl-6 has-text-centered">
+                <p class="title">
+                    Scratching the Surface
+                </p>
+                <p class="subtitle is-size-3">
+                    Jacob Cowan's Game Design Portfolio
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
