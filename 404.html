@@ -4,26 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob Cowan</title>
+    
+    <title>Jacob Cowan | Page Not Found</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyles.css">
+
+    <!-- Functionality -->
+    <script src="navbar.js"></script>
+
 </head>
 <body>
-    <h1 class="title">
-        Uh Oh...
-    </h1>
-
-    <p class="subtitle">
-        Error 404: Page not found! Are you sure you're in the right place?
+<nav class="navbar is-primary">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="index.html" class="navbar-item">
+                <img src="res/logo.png" alt="Jacob Cowan" class="logo">
+            </a>
+            <span class="navbar-burger" data-target="navbarMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a href="index.html" class="navbar-item">
+                    Home
+                </a>
+                <a href="projects.html" class="navbar-item">
+                    Projects
+                </a>
+                <a href="resume.html" class="navbar-item">
+                    Résumé
+                </a>
+                <a href="about.html" class="navbar-item">
+                    About Me
+                </a>
+                <a href="contact.html" class="navbar-item is-active">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <p class="is-size-1">
+        Well, this is awkward&hellip;
     </p>
-
-    <p>
-        <a href="index.html">Return Home</a>
+    <p class="is-size-3">
+        We can't find the page you're looking for! Are you sure it's spelled correctly?
     </p>
-
+    <p class="is-size-2 has-text-right">
+        <a href="index.html">Go Home</a>
+    </p>
+</main>
 </body>
 </html>
