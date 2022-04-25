@@ -23,8 +23,21 @@
   .hero .is-faded .subtitle {
     color: #e6e6e6; }
 
-.box.is-dim {
-  background-color: #dddddd; }
+.resume {
+  color: #000000 !important;
+  background-color: #ffffff !important; }
+  .resume h2 {
+    color: #4A2F22 !important;
+    font-family: Cinzel, Garamond, serif !important;
+    font-size: 1.5rem !important; }
+  .resume p, .resume li {
+    font-family: Volkorn, Garamond, serif;
+    font-size: 1.2rem !important; }
+  .resume .subtitle {
+    color: #444444 !important; }
+
+.border-bottom {
+  border-bottom: 1pt solid; }
 
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
@@ -1360,7 +1373,7 @@ a.box:active {
 .content h4,
 .content h5,
 .content h6 {
-  color: #363636;
+  color: #E63600;
   font-weight: 600;
   line-height: 1.125; }
 
